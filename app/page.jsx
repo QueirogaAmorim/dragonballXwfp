@@ -4,6 +4,7 @@ import { RandomQuote } from 'components/random-quote';
 import { Markdown } from 'components/markdown';
 import { ContextAlert } from 'components/context-alert';
 import { getNetlifyContext } from 'utils';
+import { logo } from 'public/images/logo-large.jpeg'
 
 const cards = [
     //{ text: 'Hello', linkText: 'someLink', href: '/' }
@@ -35,6 +36,9 @@ export default function Page() {
                 <h1 className="mb-0">Dragon Ball X</h1>
                 <h3 className="mb-0">The War for Power</h3>
             </section>
+            <Link href="/">
+                <Image src={logo} alt="DB X" />
+            </Link>
         </main>
     );
 }
