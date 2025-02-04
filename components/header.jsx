@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import logoSmall from 'public/image/logo-small.png';
 
 const navItems = [
     { linkText: 'Home', href: '/' },
@@ -14,9 +13,9 @@ const navItems = [
 export function Header() {
     return (
         <nav className="flex flex-wrap items-center gap-4 pt-6 pb-12 sm:pt-12 md:pb-24">
-            <Link href="/">
+            {/* <Link href="/">
                 <Image src={logoSmall} alt="DB X" />
-            </Link>
+            </Link> */}
             {!!navItems?.length && (
                 <ul className="flex flex-wrap gap-x-4 gap-y-1">
                     {navItems.map((item, index) => (
