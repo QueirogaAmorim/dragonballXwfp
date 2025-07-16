@@ -37,7 +37,7 @@ export default function Page() {
             </section>
             <section>
                 <p>
-                
+                Mais detalhes em breve!
                 </p>
             </section>
             {/* <Image

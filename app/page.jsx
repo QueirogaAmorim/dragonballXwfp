@@ -36,6 +36,16 @@ export default function Page() {
                 <h1 className="mb-0">Dragon Ball X</h1>
                 <h3 className="mb-0">The War for Power</h3>
             </section>
+            <section style={{ position: 'relative', width: '100%', height: '400px' }}>
+                <Image
+                    src="/images/front.jpeg"
+                    alt="DB X"
+                    fill
+                    style={{ objectFit: 'contain' }}
+                    priority
+                    sizes="(max-width: 1024px) 100vw, 1024px"
+                />
+            </section>
             <section>
                 <p>
                 Em um universo paralelo, onde a paz alcançada pelas lendas de Goku e seus aliados ainda ecoa, novas ameaças surgem do vazio cósmico. Dragon Ball X - The War for Power transporta-nos para uma batalha épica entre forças desconhecidas, mais poderosas e traiçoeiras do que qualquer vilão que a Terra já enfrentou.
@@ -46,16 +56,6 @@ Goku, Vegeta, e os seus amigos são arrastados para uma guerra sem precedentes, 
 
 Prepare-se para um confronto épico e imersivo! Dragon Ball X - The War for Power está prestes a começar.
                 </p>
-            </section>
-            <section style={{ position: 'relative', width: '100%', height: '400px' }}>
-                <Image
-                    src="/images/front.jpeg"
-                    alt="DB X"
-                    fill
-                    style={{ objectFit: 'contain' }}
-                    priority
-                    sizes="(max-width: 1024px) 100vw, 1024px"
-                />
             </section>
               <section>
                 <h2 className="text-xl font-semibold">Teaser</h2>
