@@ -70,14 +70,6 @@ Prepare-se para um confronto épico e imersivo! Dragon Ball X - The War for Powe
                     ></iframe>
                 </div>
             </section>
-            {/* <Image
-                                    src="/images/logo-large.jpeg"
-                                    priority
-                                    fill={true}
-                                    style={{ objectFit: 'contain' }}
-                                    sizes="(max-width: 1024px) 100vw, 1024px"
-                                    alt="DB X"
-                                /> */}
         </main>
     );
 }
