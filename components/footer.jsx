@@ -7,6 +7,7 @@ export function Footer() {
                 href="https://www.youtube.com/@NewDragonBallX"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Visit our YouTube Channel"
                 className="hover:opacity-80 transition"
             >
                 <img
