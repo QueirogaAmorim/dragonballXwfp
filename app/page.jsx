@@ -46,6 +46,19 @@ Goku, Vegeta, e os seus amigos são arrastados para uma guerra sem precedentes, 
 Prepare-se para um confronto épico e imersivo! Dragon Ball X - The War for Power está prestes a começar.
                 </p>
             </section>
+              <section>
+                <h2 className="text-xl font-semibold">Assista ao teaser</h2>
+                <div className="aspect-w-16 aspect-h-9 w-full">
+                    <iframe
+                        src="https://www.youtube.com/embed/x7BMRquKP20"
+                        title="Dragon Ball X Teaser"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                        className="w-full h-64 sm:h-96"
+                    ></iframe>
+                </div>
+            </section>
             {/* <Image
                                     src="/images/logo-large.jpeg"
                                     priority

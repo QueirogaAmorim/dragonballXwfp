@@ -42,3 +42,5 @@ If your browser doesn't navigate to the site automatically, visit [localhost:888
 
 Site https://dragonballxtwfp.netlify.app/
 
+É só dar push para a main e atualiza logo o site LIVE
+
