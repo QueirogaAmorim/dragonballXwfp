@@ -3,6 +3,7 @@ import Link from 'next/link';
 
 const navItems = [
     { linkText: 'Home', href: '/' },
+    { linkText: 'Vídeos', href: '/videos' },
     { linkText: 'Capítulos', href: '/chapters' },
     // { linkText: 'Image CDN', href: '/image-cdn' },
     // { linkText: 'Edge Function', href: '/edge' },
