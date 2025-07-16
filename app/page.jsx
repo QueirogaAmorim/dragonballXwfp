@@ -4,6 +4,7 @@ import { RandomQuote } from 'components/random-quote';
 import { Markdown } from 'components/markdown';
 import { ContextAlert } from 'components/context-alert';
 import { getNetlifyContext } from 'utils';
+import Image from 'next/image';
 
 const cards = [
     //{ text: 'Hello', linkText: 'someLink', href: '/' }
@@ -46,8 +47,18 @@ Goku, Vegeta, e os seus amigos são arrastados para uma guerra sem precedentes, 
 Prepare-se para um confronto épico e imersivo! Dragon Ball X - The War for Power está prestes a começar.
                 </p>
             </section>
+            <section style={{ position: 'relative', width: '100%', height: '400px' }}>
+                <Image
+                    src="/images/front.jpeg"
+                    alt="DB X"
+                    fill
+                    style={{ objectFit: 'contain' }}
+                    priority
+                    sizes="(max-width: 1024px) 100vw, 1024px"
+                />
+            </section>
               <section>
-                <h2 className="text-xl font-semibold">Assista ao teaser</h2>
+                <h2 className="text-xl font-semibold">Teaser</h2>
                 <div className="aspect-w-16 aspect-h-9 w-full">
                     <iframe
                         src="https://www.youtube.com/embed/x7BMRquKP20"
