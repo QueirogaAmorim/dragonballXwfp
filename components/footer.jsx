@@ -9,7 +9,7 @@ export function Footer() {
         <p className="text-gray-600 mb-4 sm:mb-0">Follow us on</p>
         <div className="flex space-x-6">
           <Link
-            href="https://www.youtube.com/@NewDragonBallX"
+            href="https://www.youtube.com/@Dragon_Ball_X_7"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="New Dragon Ball X on YouTube"
